@@ -89,9 +89,9 @@ def load_image():
         label_image.config(image="")
         label_image_google.config(image="")
 
-        # Clé d'API Google et CX
-        api_key = 'AIzaSyBD-CG3JzojLSnuuK7hMyCq4oikp-EaSag'
-        cx = '33123f43c8eb44299'
+        # Clé d'API Google et CX 
+        api_key = ''
+        cx = ''
 
         # Spécifie le nom de l'image à rechercher
         query = result[0][0][1]
