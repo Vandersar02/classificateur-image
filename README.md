@@ -45,7 +45,7 @@ This Python project allows users to load an image, classify it using a pre-train
 
 ## Configuration
 
-To use Google Image Search, you need to provide your own API key and CX in the `load_image` function:
+To use Google Image Search, you need to provide your own API key and CX in the `load_image` function in line (93 - 94) of image-classifier.py:
 ```python
 api_key = 'YOUR_GOOGLE_API_KEY'
 cx = 'YOUR_CX'
